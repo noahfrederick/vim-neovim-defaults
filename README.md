@@ -24,6 +24,17 @@ if has('nvim')
 endif
 ```
 
+You must first source the plug-in before overriding one or more of these
+defaults in your vimrc:
+
+```vim
+runtime! plugin/neovim_defaults.vim
+
+" ...
+```
+
+Otherwise you may place overrides in `after/plugin/neovim_defaults.vim`.
+
 ## Credits and License
 
 Copyright © Noah Frederick. Distributed under the same terms as Vim itself.
