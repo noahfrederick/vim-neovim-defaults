@@ -1,6 +1,12 @@
 " plugin/neovim_defaults.vim - Neovim defaults for Vim
 " Maintainer: Noah Frederick
 
+if exists('g:loaded_neovim_defaults') || &compatible
+  finish
+else
+  let g:loaded_neovim_defaults = 1
+endif
+
 " Settings based on :help nvim-option-defaults
 set autoindent
 set autoread
