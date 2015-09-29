@@ -23,7 +23,6 @@ set tags=./tags;,tags
 set ttyfast
 set viminfo+=!
 set wildmenu
-set wildmode=list:longest,full
 
 " Load matchit.vim, if a newer version isn't already installed.
 " Neovim includes matchit.vim as a regular plug-in.
