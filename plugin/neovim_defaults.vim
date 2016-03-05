@@ -7,6 +7,13 @@ else
   let g:loaded_neovim_defaults = 1
 endif
 
+if has('autocmd')
+  filetype plugin indent on
+endif
+if has('syntax') && !exists('g:syntax_on')
+  syntax enable
+endif
+
 " Settings based on :help nvim-option-defaults
 set autoindent
 set autoread
