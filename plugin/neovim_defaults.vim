@@ -27,6 +27,7 @@ set hlsearch
 set incsearch
 set langnoremap
 set laststatus=2
+set listchars=tab:>\ ,trail:-,nbsp:+
 set mouse=a
 set nrformats=hex
 set sessionoptions-=options
