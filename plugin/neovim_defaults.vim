@@ -14,7 +14,7 @@ if has('syntax') && !exists('g:syntax_on')
   syntax enable
 endif
 
-" Settings based on :help nvim-option-defaults
+" Settings based on :help nvim-defaults
 set autoindent
 set autoread
 set backspace=indent,eol,start
@@ -27,6 +27,7 @@ set hlsearch
 set incsearch
 set langnoremap
 set laststatus=2
+set listchars=tab:>\ ,trail:-,nbsp:+
 set mouse=a
 set nrformats=hex
 set sessionoptions-=options
